@@ -124,49 +124,50 @@ volatile uint32_t 	CFGR;			//RCC clock configuration register
 volatile uint32_t 	CIR;			//RCC clock interrupt register
 volatile uint32_t 	AHB1RSTR;		//RCC AHB1 peripheral reset register
 
-volatile uint32_t	RESERVED00;
-volatile uint32_t	RESERVED01;
+volatile uint32_t	RESERVED00;		//0x14
+volatile uint32_t   RESERVED01;
+volatile uint32_t	RESERVED02;		//0x1c
 
 volatile uint32_t 	APB1RSTR;		//RCC APB1 peripheral reset register for
 volatile uint32_t 	APB2RSTR;		//RCC APB2 peripheral reset register
 
-volatile uint32_t	RESERVED02;
-volatile uint32_t	RESERVED03;
+volatile uint32_t	RESERVED03;		//0x28
+volatile uint32_t	RESERVED04;		//0x2c
 
 volatile uint32_t 	AHB1ENR;		//RCC AHB1 peripheral clock enable register
 
-volatile uint32_t	RESERVED04;
 volatile uint32_t	RESERVED05;
 volatile uint32_t	RESERVED06;
+volatile uint32_t	RESERVED07;
 
 volatile uint32_t 	APB1ENR;		//RCC APB1 peripheral clock enable register
 volatile uint32_t 	APB2ENR;		//RCC APB2 peripheral clock enable register
 
-volatile uint32_t	RESERVED07;
 volatile uint32_t	RESERVED08;
+volatile uint32_t	RESERVED09;
 
 volatile uint32_t   AHB1LPENR;		//RCC AHB1 peripheral clock enable in low power mode register
 
-volatile uint32_t	RESERVED09;
 volatile uint32_t	RESERVED10;
 volatile uint32_t	RESERVED11;
+volatile uint32_t	RESERVED12;
 
 volatile uint32_t   APB1LPENR;		//RCC APB1 peripheral clock enable in low power mode register
 volatile uint32_t   APB2LPENR;		//RCC APB2 peripheral clock enabled in low power mode register
 
-volatile uint32_t	RESERVED12;
 volatile uint32_t	RESERVED13;
+volatile uint32_t	RESERVED14;
 
 volatile uint32_t 	BDCR;			//RCC Backup domain control register
 volatile uint32_t 	CSR;			//RCC clock control & status register
 
-volatile uint32_t	RESERVED14;
 volatile uint32_t	RESERVED15;
+volatile uint32_t	RESERVED16;
 
 volatile uint32_t 	SSCGR;			//RCC spread spectrum clock generation register
 
-volatile uint32_t	RESERVED16;
 volatile uint32_t	RESERVED17;
+volatile uint32_t	RESERVED18;
 
 volatile uint32_t 	DCKCFGR;		//RCC Dedicated Clocks Configuration Register
 volatile uint32_t 	DCKCFGR2;		//RCC dedicated Clocks Configuration Register 2
